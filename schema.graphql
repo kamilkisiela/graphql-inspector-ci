@@ -1,10 +1,9 @@
 type Query {
   users: [User]
-  user: User
 }
 
 type User {
   id: ID
   name: String
-  createdAt: String
+  createdAt: Int
 }

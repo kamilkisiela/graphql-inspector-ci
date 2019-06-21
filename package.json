@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "graphql-inspector diff 'git:master:./schema.graphql' 'schema.graphql'"
+    "test": "graphql-inspector diff 'git:origin/master:./schema.graphql' 'schema.graphql'"
   },
   "devDependencies": {
     "@graphql-inspector/cli": "1.21.0-alpha.0"
