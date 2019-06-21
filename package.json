@@ -1,0 +1,15 @@
+{
+  "name": "graphql-inspector-ci",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "graphql-inspector diff 'git:master:./schema.graphql' 'schema.graphql'"
+  },
+  "devDependencies": {
+    "@graphql-inspector/cli": "1.21.0-alpha.0"
+  },
+  "dependencies": {
+    "graphql": "14.3.1"
+  }
+}

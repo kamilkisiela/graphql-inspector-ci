@@ -1,0 +1,13 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:12.4.0
+    steps:
+      - checkout
+      - run:
+          name: Install
+          command: yarn install
+      - run:
+          name: GraphQL Inspector
+          command: yarn test
